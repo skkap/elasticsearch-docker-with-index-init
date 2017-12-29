@@ -24,5 +24,12 @@ services:
       - "5601:5601"
     depends_on:
       - elasticsearch
+  esinit:
+    build: ./esinit
+    container_name: esinit
+    environment:
+      - ES_HOST=elasticsearch
+    depends_on:
+      - elasticsearch
 volumes:
   esdata:

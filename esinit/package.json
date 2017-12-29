@@ -1,0 +1,15 @@
+{
+  "name": "esinit",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node --experimental-modules ./src/index.mjs"
+  },
+  "license": "MIT",
+  "author": "skkap",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "elasticsearch": "^14.0.0",
+    "sleep-promise": "^2.0.0"
+  }
+}
